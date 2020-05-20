@@ -1,0 +1,140 @@
+﻿/* 게시판 기본  */
+#boardWrapper {
+    margin: auto auto 300px;
+    width: 1300px;
+    top: 230px;
+    position: relative;
+    display: block;
+    box-shadow: 0 3px 18px -8px rgba(0, 0, 0, 0.48);
+    background-color: white;
+    padding: 100px 80px 170px;
+    border-radius: 5px;
+    border: #e2e2e2 1px solid;
+}
+
+#bg {
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 1000px;
+}
+
+h3 {
+    display: block;
+    border-left: 10px solid;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#boardlistWriteBttn {
+    margin-top: 30px;
+    float: right;
+    padding: 10px;
+    width: 200px;
+}
+
+table {
+    border: 1px solid #d0d0d0;
+    width: 100%;
+    margin: auto;
+}
+
+#boardLists tr {
+    height: 45px;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
+
+thead {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-bottom: solid 1px;
+    height: 60px;
+}
+
+#boardNum {}
+
+#boardTitle {
+    width: 800px;
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+}
+
+#boardDate {}
+
+tbody {
+    text-align: center;
+}
+
+tr {
+    border-bottom: #d0d0d0 solid 1px;
+}
+
+td {}
+
+/* 글쓰기폼 */
+#boardInputTable {
+    border: 0;
+    width: 900px;
+}
+
+#boardInputTable tbody {}
+
+#boardInputTable tr {
+    border: 0;
+}
+
+#boardInputTable td {}
+
+#boardInputName {
+    width: 50%;
+    display: inline-block;
+}
+
+#inputPassword {
+    width: 49%;
+    display: inline-block;
+}
+
+#boardInputTitle {}
+
+#boardInputTextarea {}
+
+#fileUpload {
+    float: left;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#fileUploadList {}
+
+#fileUploadList li {}
+
+#fileUploadList span {}
+
+#deleteIcon {
+    width: 15px;
+}
+
+#boardSubmit {
+    width: 300px;
+    padding: 10px;
+    float: right;
+}
